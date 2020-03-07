@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TAKE ME THERE -About us</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://a.top4top.io/p_1506h7tv31.jpg"/>
+    
+      <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+    </head>
+
+
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+                LOGO
+            </div>
+            <div class="menu">
+                <ul>
+                    <li> <a class="nod" href="HP.html">Home</a></li> 
+                    <li> <a class="nod" href="AP.html">About</a></li> 
+                    <li> <a href="#">Blog</a></li> 
+                    <li> <a href="#">Contact</a></li> 
+                </ul>
+            </div>
+        </div>
+        <div class="header">
+            <h1>Travel BLog</h1>
+            <p>
+                Welcome
+            </p>
+            <button type="button">View detiels </button>
+        </div>
+    </div>
+     
+        
+</body>
+</html>
