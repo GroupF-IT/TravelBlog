@@ -1,7 +1,7 @@
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
     url("https://mrkzgulfup.com/uploads/158172909478282.jpg");
-    height: 30%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,18 +16,81 @@
     color: white;
   }
   
-  table {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-collapse: collapse;
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(32, 61, 34, 0.719);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ddd;
+    color: black;
+  }
+  table{
+    margin: 50px auto;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+  }
+   
+  @media (max-height:800px){
+    footer { position: static; }
+    header { padding-top:40px; }
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+ 
+  .footer-distributed .footer-center{
     width: 100%;
   }
-  
-  td, th {
-    border: 5px solid #ffffff00;
-    text-align:center;
-    padding: 3px;
+
+  .footer-distributed .footer-contact span{
+    display: block;
+    color:  #343746;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
+   
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+    text-align: center;
+  }
+   
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 50px;
+    cursor: pointer;
+    background-color:  #33383b00;
+    border-radius: 2px;
+   
+    font-size: 20px;
+    color: #31374b;
+    text-align: left;
+    line-height: 35px;
+   
+    margin-right: 7px;
+    margin-bottom: 7px;
   
-  tr:nth-child(even) {
-    background-color: #ffffff00;
   }
