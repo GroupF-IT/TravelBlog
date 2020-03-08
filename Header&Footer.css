@@ -44,20 +44,13 @@
     margin: 50px auto;
   }
   footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
   }
    
   @media (max-height:800px){
-    footer { position: static; }
+    footer { position: relative; }
     header { padding-top:40px; }
-  }
-  
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right{
-    display: inline-block;
-    vertical-align: top;
   }
  
   .footer-distributed .footer-center{
