@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: table;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: fantasy;
 }
 .nav{
     position: fixed ;
@@ -30,8 +30,8 @@ body{
 .logo{
     letter-spacing: 1px;
     float: left;
-    color: #fff;
-    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
     line-height: 80px;
     padding: 0 6em;
 }
@@ -79,6 +79,7 @@ body{
     .header p{
         color: #fff;
         font-size: 24px;
+        font-family: fantasy;
         font-weight: lighter;
     }
 
@@ -92,7 +93,24 @@ body{
     }
 
 
+    table {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      border-bottom: 80px soild rgba(255, 255, 255, 0.5);
 
+    }
+    
+    td, th {
+      border: 5px solid #ffffff00;
+      text-align:center;
+      padding: 3px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #ffffff00;
+    }
+  
 
 
 
