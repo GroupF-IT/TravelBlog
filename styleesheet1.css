@@ -2,12 +2,13 @@ html, body{
     margin: 0;
     padding: 0%;
     width: 100%;
+    height: auto;
 }
 
 body{
-    width: 100%;
+    max-width:100%;
     height: 100vh;
-    background: url(https://a.top4top.io/p_1527q5uto1.jpg);
+    background: linear-gradient(rgba(48, 47, 47, 0.404), rgba(54, 54, 54, 0.37)), url(https://d.top4top.io/p_15417f7yi1.jpg);
     background-color: rgb(255, 255, 255, 0.8);
     background-position: center;
     background-repeat: no-repeat;
@@ -15,52 +16,15 @@ body{
     display: table;
     font-family: fantasy;
 }
-.nav{
-    position: fixed ;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width:100%;
-    height: 80px;
-    border-bottom: 1px soild rgba(255, 255, 255, 0.5);
-
-}
-
-.logo{
-    letter-spacing: 1px;
-    float: left;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    line-height: 80px;
-    padding: 0 6em;
-}
-
-.menu{
+.topnav a {
     float: right;
-    line-height: 50px;
-
-    margin: 0 6em;
-}
-
-.menu ul{
-    list-style: none;
-}
-
-.menu ul li{
-    display: inline-block;
-
-}
-
-
-.menu ul li a{
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: lighter;
-    padding: 0 20px;
-}
- 
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+  }
 .header{
     position: absolute;
     top: 50%;
@@ -68,58 +32,23 @@ body{
     transform: translate(-50% , -50%);
     text-align: center;
     }
-
-    .header h1{
-        color: #fff;
-        font-size: 46px;
-        font-weight: 400;
-        margin-bottom: 8px;
+    h1 {
+        font-size: 2cm;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
     }
-
-    .header p{
-        color: #fff;
-        font-size: 24px;
-        font-family: fantasy;
-        font-weight: lighter;
+    p{
+        font-size:large;
+        color: whitesmoke;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .header button{
-        color: #fff;
-        background: rgb(32, 70, 58);
+        color: rgb(255, 255, 255);
+        background: rgb(100, 71, 55);
         padding: 18px 38px;
         border: none;
         font-size: 14px;
         margin-top: 40px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
-
-
-    table {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-      border-bottom: 80px soild rgba(255, 255, 255, 0.5);
-
-    }
-    
-    td, th {
-      border: 5px solid #ffffff00;
-      text-align:center;
-      padding: 3px;
-    }
-    
-    tr:nth-child(even) {
-      background-color: #ffffff00;
-    }
-  
-
-
-
-
-
-
-
-
-
-
-
-
