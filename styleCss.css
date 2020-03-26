@@ -1,126 +1,126 @@
 body{
-    background-image:linear-gradient(rgba(255, 254, 254, 0.5), rgba(255, 253, 253, 0.5)),  url('https://mrkzgulfup.com/uploads/158179792989411.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  }
-  
+  background-image:linear-gradient(rgba(255, 254, 254, 0.5), rgba(255, 253, 253, 0.5)),  url('https://mrkzgulfup.com/uploads/158179792989411.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+height: 100%;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 div.gallery {
-    border: 1px solid rgba(255, 255, 255, 0.26);
-  }
-  
-  div.gallery:hover {
-    border: 1px solid rgba(255, 255, 255, 0.178);
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 5px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.274);
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
+  border: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+div.gallery:hover {
+  border: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.274);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding:25px;
+  float: right;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
   .responsive {
-    padding:25px;
-    float: right;
-    width: 24.99999%;
+    width: 49.99999%;
+    margin: 6px 0;
   }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
   }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-    h2 {text-align: center;}
-    p {text-align: center;}
-    img {
-    border-radius: 8px;
-  }
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  h2 {text-align: center;}
+  p {text-align: center;}
+  img {
+  border-radius: 8px;
+}
+@media screen and (max-width:600px) {
   .column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
+    width: 100%;
   }
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-  }
-  *{
-    margin: 0;
-    padding: 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 .rate {
-    float: left;
-    height: 46px;
-    padding: 0 10px;
+  float: left;
+  height: 46px;
+  padding: 0 10px;
 }
 .rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
+  position:absolute;
+  top:-9999px;
 }
 .rate:not(:checked) > label {
-    float:right;
-    width:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:30px;
-    color:#ccc;
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
 }
 .rate:not(:checked) > label:before {
-    content: '\2605   ';
+  content: '\2605   ';
 }
 .rate > input:checked ~ label {
-    color: #ffc700;    
+  color: #ffc700;    
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
-    color: #deb217;  
+  color: #deb217;  
 }
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
+  color: #c59b08;
 }
