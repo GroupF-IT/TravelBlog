@@ -14,8 +14,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: table;
-    font-family: fantasy;
+    font-family:Arial, Helvetica, sans-serif;
 }
+
+.logo{
+    text-indent: -999999px;
+    background: url('https://j.top4top.io/p_1546tgjjm1.png');
+    background-blend-mode: initial;
+    background-position: center;
+    width: 412px;
+    height: 307px;
+
+}
+
 .topnav a {
     float: right;
     color: #ffffff;
@@ -23,7 +34,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
   }
 .header{
     position: absolute;
@@ -35,20 +46,18 @@ body{
     h1 {
         font-size: 2cm;
         color:white;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+        font-family:Arial, Helvetica, sans-serif;    }
     p{
         font-size:large;
         color: whitesmoke;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
+        font-family:Arial, Helvetica, sans-serif;    }
 
     .header button{
         color: rgb(255, 255, 255);
-        background: rgb(100, 71, 55);
+        background: rgba(196, 188, 184, 0.37);
         padding: 18px 38px;
-        border: none;
-        font-size: 14px;
+        border-color: (rgb(105, 62, 40),rgb(105, 62, 40)) ;
+        border-radius: 5cm;
+        font-size: 20px;
         margin-top: 40px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    }
+        font-family:Arial, Helvetica, sans-serif;    }
