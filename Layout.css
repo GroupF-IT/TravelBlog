@@ -1,3 +1,4 @@
+/*Header & navegation of all pages except index page*/
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
   url("https://d.top4top.io/p_15417f7yi1.jpg");
@@ -48,19 +49,12 @@
   background-color: #ddd;
   color: black;
 }
-table{
-  margin: 50px auto;
-}
-footer{
-  position: relative;
-  bottom: 0;
-}
  
 @media (max-height:800px){
   footer { position: relative; }
   header { padding-top:40px; }
 }
-
+/*Footer of all pages except index page*/
 .footer-distributed .footer-center{
   width: 100%;
 }
@@ -91,6 +85,3 @@ footer{
   text-align: left;
   line-height: 35px;
 }
-
-
- 
