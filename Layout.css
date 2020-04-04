@@ -23,11 +23,11 @@
 }
 .logo{
   text-indent: -999999px;
-  background: url('https://k.top4top.io/p_15470z7x11.png');
+  background: url('https://j.top4top.io/p_1546tgjjm1.png');
   background-blend-mode: initial;
   background-position: center;
-  width: 309px;
-  height: 230px;
+  width: 412px;
+  height: 307px;
 
 }
 .topnav a {
@@ -61,27 +61,30 @@
 
 .footer-distributed .footer-contact span{
   display: block;
-  color:  #343746;
-  font-size: 18px;
+  color:  rgb(48, 58, 53);
+  font-size: 15px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
 }
  
 .footer-distributed .footer-icons{
-  margin-top: 25px;
+  margin-top: 1px;
   text-align: center;
 }
  
 .footer-distributed .footer-icons a{
   display: inline-block;
-  width: 35px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   background-color:  #33383b00;
   border-radius: 2px;
  
   font-size: 20px;
-  color: #31374b;
+  color: rgb(48, 58, 53);
   text-align: left;
   line-height: 35px;
 }
+
+
+ 
