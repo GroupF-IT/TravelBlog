@@ -1,6 +1,6 @@
 /*Body of all pages except index page*/
 body{
-    background-image:linear-gradient(rgba(255, 254, 254, 0.5), rgba(255, 253, 253, 0.5)),  url('https://mrkzgulfup.com/uploads/158179792989411.jpg');
+    background-image:linear-gradient(rgba(255, 254, 254, 0.5), rgba(255, 253, 253, 0.5)),  url("../image/websiteBackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -127,7 +127,7 @@ body{
   /*Index (landing page)*/
   .logo{
     text-indent: -999999px;
-    background: url('https://j.top4top.io/p_1546tgjjm1.png');
+    background: url("../image/logo.png");
     background-blend-mode: initial;
     background-position: center;
     width: 412px;
