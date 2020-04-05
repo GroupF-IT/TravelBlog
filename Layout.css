@@ -1,7 +1,7 @@
 /*Header & navegation of all pages except index page*/
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url("https://d.top4top.io/p_15417f7yi1.jpg");
+  url("../image/headerAndLanding.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 .logo{
   text-indent: -999999px;
-  background: url('https://j.top4top.io/p_1546tgjjm1.png');
+  background: url("../image/logo.png");
   background-blend-mode: initial;
   background-position: center;
   width: 412px;
@@ -85,6 +85,3 @@
   text-align: left;
   line-height: 35px;
 }
-
-
- 
